@@ -19,7 +19,7 @@ services:
     build: ./db
     command: --default-authentication-plugin=mysql_native_password
     ports:
-      - 3308:3306
+      - 3310:3306
     networks:
       backend:
         ipv4_address: 172.10.3.2
