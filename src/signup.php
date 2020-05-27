@@ -22,7 +22,7 @@
       </div>
       <div class="form-group">
         <label for="">Username</label>
-        <input type="text" name="user_name"placeholder="Examle: Muster" class="form-control" autocomplete="off" required>
+        <input type="text" name="user_name"placeholder="Examle: Your Name" class="form-control" autocomplete="off" required>
       </div>
       <div class="form-group">
         <label for="">Password</label>
