@@ -1,0 +1,1 @@
+select * from mychat.users u ;

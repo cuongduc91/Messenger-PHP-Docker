@@ -1,7 +1,7 @@
 create database mychat;
 /*
 drop table mychat.users ;
-drop table mychat.users users_chat;
+drop table mychat.users_chats;
 */
 create table mychat.users(
 	user_id SERIAL,
@@ -15,7 +15,7 @@ create table mychat.users(
 	log_in varchar(7)
 );
 
-create table mychat.users_chat(
+create table mychat.users_chats(
 	msg_id SERIAL,
 	sender_username varchar(100),
 	receiver_username varchar(100),
