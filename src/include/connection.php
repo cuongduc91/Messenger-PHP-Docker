@@ -4,6 +4,7 @@
   if ($mysqli->connect_error) {
     echo 'Connection Error [', $mysqli->connect_errno, ']: ', $mysqli->connect_error;
   } else {
-    echo 'MySQLi Connected Successfully!';
+    // echo 'MySQLi Connected Successfully!';
+    echo '';
   }
 ?>
