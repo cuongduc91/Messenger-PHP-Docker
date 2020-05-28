@@ -8,12 +8,18 @@
 
 # db
 
-- As localhost name running on port 3310
+- As local MySQL database running on port 3310
 
-#DBeaver
+# DBeaver
 
 - Download and install DBeaver as GUI configuration to the MySQL database
 - https://dbeaver.io
+- Configuration as 'root' on port 3310
+
+# Environment file
+
+- Create the development.env file in the main folder.
+- Env. Parameters: MYSQL_USER, MYSQL_PASSWORD, MYSQL_ROOT_PASSWORD...
 
 # www
 
