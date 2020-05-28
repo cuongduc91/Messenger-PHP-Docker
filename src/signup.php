@@ -22,15 +22,15 @@
       </div>
       <div class="form-group">
         <label for="">Username</label>
-        <input type="text" name="user_name"placeholder="Examle: Your Name" class="form-control" autocomplete="off" required>
+        <input type="text" name="user_name" placeholder="Example: Your Name" class="form-control" autocomplete="off" required>
       </div>
       <div class="form-group">
         <label for="">Password</label>
-        <input type="password" name="user_pass"placeholder="Password" class="form-control" autocomplete="off" required>
+        <input type="password" name="user_pass" placeholder="Password" class="form-control" autocomplete="off" required>
       </div>
       <div class="form-group">
         <label for="">Email Address</label>
-        <input type="email" name="user_email"placeholder="someone@site.com" class="form-control" autocomplete="off" required>
+        <input type="email" name="user_email" placeholder="someone@site.com" class="form-control" autocomplete="off" required>
       </div>
       <div class="form-group">
         <label for="">Country</label>
@@ -58,9 +58,9 @@
       <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_up">Sign up</button>
       </div>
-      <!-- <?php //include("signin_user.php"); ?> -->
+      <?php include("signup_user.php"); ?>	
     </form>
-    <div class="text-class small" style="color: #674288;">Already have an account <a href="index.php">Signin here</a> </div>
+    <div class="text-center small">Already have an account <a href="index.php">Signin here</a> </div>
   </div>
 </body>
 
