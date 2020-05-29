@@ -129,14 +129,14 @@ else{ ?>
                               $update = "update users set forgotten_answer='$bfn' where user_email='$user'";                  
                               $run = mysqli_query($con,$update);
                           
-                            if($run){
-                            
-                              echo "<script>alert('Working...!')</script>";
-                              echo "<script>window.open('account_settings.php?','_self')</script>";
-                            }else{
-                              echo "<script>alert('Error while Updating information...!')</script>";
-                              echo "<script>window.open('account_settings.php','_self')</script>";
-                            }
+                              if($run){
+                              
+                                echo "<script>alert('Working...!')</script>";
+                                echo "<script>window.open('forgot_pass.php?','_self')</script>";
+                              }else{
+                                echo "<script>alert('Error while Updating information...!')</script>";
+                                echo "<script>window.open('account_settings.php','_self')</script>";
+                              }
                           }
                         }
                         ?>
