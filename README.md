@@ -14,7 +14,7 @@
 
 - Download and install DBeaver as GUI configuration to the MySQL database
 - https://dbeaver.io
-- Configuration as 'root' on port 3310
+- Configuration as MYSQL_USER/MYSQL_PASSWORD in development.env file on port 3310
 
 # Environment file
 
